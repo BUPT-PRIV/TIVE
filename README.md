@@ -67,13 +67,13 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
     <th class="model_summary_table-9wq8" rowspan="2">Pretrain</th>
     <th class="model_summary_table-9wq8" rowspan="2">Training<br>Frames</th>
     <th class="model_summary_table-9wq8" colspan="4">Metrics </th>
-    <th class="model_summary_table-9wq8" colspan="7">Error Weights(&amp;DeltaAP@50)</th>
+    <th class="model_summary_table-9wq8" colspan="7">Error Weights(&Delta;AP@50)</th>
   </tr>
   <tr>
     <th class="model_summary_table-hxaf">mAP</th>
-    <th class="model_summary_table-hxaf">mAPs</th>
-    <th class="model_summary_table-hxaf">mAPm</th>
-    <th class="model_summary_table-hxaf">mAPl</th>
+    <th class="model_summary_table-hxaf">mAP<sub>s</sub></th>
+    <th class="model_summary_table-hxaf">mAP<sub>m</sub></th>
+    <th class="model_summary_table-hxaf">mAP<sub>l</sub></th>
     <th class="model_summary_table-hxaf">Cls</th>
     <th class="model_summary_table-hxaf">Dup</th>
     <th class="model_summary_table-hxaf">Spat</th>
