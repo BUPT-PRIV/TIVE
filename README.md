@@ -35,9 +35,9 @@ We expect that the analysis of TIVE can give the researchers more insights, guid
     <font size=5><b>TIVE </b></font>bin false positives and false negatives produced by a model into 7 types, including general object recognition errors and two spatial-temporal localization errors with specific focus on spatial segmentation and temporal association quality of predicted mask sequence.
 </p>
 
-# Error identification
+# Distribution of Errors
 <div align=center>
-    <img src="./img/Error_identification.svg">
+    <img src="./img/Distribution_of_Errors.svg">
 </div>
 <p>
     Clear pictures are given to show errors produced by models cross all temporal length, effect of each to the evaluation metric is weighted by individually fixing oracle. Users can observe what prevents their model to achieve higher mAP.
@@ -47,7 +47,7 @@ We expect that the analysis of TIVE can give the researchers more insights, guid
 Experiments conducted by TIVE show that recognizing short video instances is especially challenging, mAP corss temporal ranges and error distributions for all models selected by our paper are shown below.
 <html>
 <style type="text/css">
-.model_summary_table  {border:none;border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.model_summary_table  {border:none;border-collapse:collapse;border-color:#93a1a1;border-spacing:0;margin:auto}
 .model_summary_table td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:0px;color:#002b36;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .model_summary_table th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:0px;color:#fdf6e3;
@@ -58,11 +58,10 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
 .model_summary_table .model_summary_table-c3ow{border-color:inherit;text-align:center;vertical-align:top}
 .model_summary_table .model_summary_table-hxaf{background-color:#657b83;border-color:#93a1a1;color:#fdf6e3;text-align:center;vertical-align:middle}
 </style>
-<table class="model_summary_table">
+<table class="model_summary_table" >
 <thead>
   <tr>
     <th class="model_summary_table-9wq8" rowspan="2">Method</th>
-    <th class="model_summary_table-9wq8" rowspan="2">Pretrain</th>
     <th class="model_summary_table-9wq8" rowspan="2">Training<br>Frames</th>
     <th class="model_summary_table-9wq8" colspan="4">Metrics </th>
     <th class="model_summary_table-9wq8" colspan="7">Error Weights(&Delta;AP@50)</th>
@@ -84,7 +83,6 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
 <tbody>
   <tr>
     <td class="model_summary_table-9wq8">Mask Track R-CNN</td>
-    <td class="model_summary_table-9wq8">MSCOCO</td>
     <td class="model_summary_table-9wq8">T=2</td>
     <td class="model_summary_table-9wq8">36.30</td>
     <td class="model_summary_table-9wq8">10.44</td>
@@ -100,7 +98,6 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
   </tr>
   <tr>
     <td class="model_summary_table-b406">VISOLO</td>
-    <td class="model_summary_table-b406">MSCOCO</td>
     <td class="model_summary_table-b406">T=3</td>
     <td class="model_summary_table-b406">38.00</td>
     <td class="model_summary_table-b406">8.82</td>
@@ -116,7 +113,6 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
   </tr>
   <tr>
     <td class="model_summary_table-9wq8">IFC</td>
-    <td class="model_summary_table-9wq8">MSCOCO</td>
     <td class="model_summary_table-9wq8">T=5</td>
     <td class="model_summary_table-9wq8">40.35</td>
     <td class="model_summary_table-9wq8">21.05</td>
@@ -132,7 +128,6 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
   </tr>
   <tr>
     <td class="model_summary_table-b406">SeqFormer</td>
-    <td class="model_summary_table-ezbu">MSCOCO</td>
     <td class="model_summary_table-ezbu">T=5</td>
     <td class="model_summary_table-b406">43.37</td>
     <td class="model_summary_table-b406">21.69</td>
@@ -148,7 +143,6 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
   </tr>
   <tr>
     <td class="model_summary_table-9wq8">Mask2Former</td>
-    <td class="model_summary_table-c3ow">MSCOCO</td>
     <td class="model_summary_table-c3ow">T=2</td>
     <td class="model_summary_table-9wq8">48.20</td>
     <td class="model_summary_table-9wq8">26.37</td>
