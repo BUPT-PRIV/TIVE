@@ -2,7 +2,7 @@
 
 <html>
 <style>
-    .abstract_table {
+    .abstract_table tr td{
         border-top-style: hidden;
         border-bottom-style: hidden;
         border-left-style: hidden;
@@ -15,8 +15,6 @@
 <table class="abstract_table">
     <tr style="height:auto;">
         <td style="width:30%;">
-            <!-- <img src="./img/abstract.png" > -->
-            <!-- <embed src="./img/abstract.svg"  > -->
             <img src="./img/abstract.svg">
         </td>
         <td style="width:70%;text-align:justify">
