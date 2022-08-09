@@ -4,7 +4,7 @@ title: TIVE
 description: A General Toolbox for Identifying Video Errors
 show_downloads: true
 
-logo: ./img/tive_logo.png
+logo: ./img/tive_logo.svg
 
 github:
   repository_name: TIVE
