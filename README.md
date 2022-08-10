@@ -46,19 +46,7 @@ We expect that the analysis of TIVE can give the researchers more insights, guid
 # Model Summary
 Experiments conducted by TIVE show that recognizing short video instances is especially challenging, mAP corss temporal ranges and error distributions for all models selected by our paper are shown below.
 <html>
-<style type="text/css">
-.model_summary_table  {border:none;border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
-.model_summary_table td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:0px;color:#002b36;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.model_summary_table th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:0px;color:#fdf6e3;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.model_summary_table .model_summary_table-b406{background-color:#eee8d5;border-color:inherit;text-align:center;vertical-align:middle}
-.model_summary_table .model_summary_table-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
-.model_summary_table .model_summary_table-ezbu{background-color:#eee8d5;border-color:inherit;text-align:center;vertical-align:top}
-.model_summary_table .model_summary_table-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.model_summary_table .model_summary_table-hxaf{background-color:#657b83;border-color:#93a1a1;color:#fdf6e3;text-align:center;vertical-align:middle}
-</style>
-<div class="table_div" style="box-align:center;">
+<div class="mst_fa">
 <table class="model_summary_table" >
 <thead>
   <tr>
