@@ -15,38 +15,24 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
-        /* .box-head1 {
+        .box-head1 {
             float: left;
             width: 30%;
             text-align: right;
-            /* margin-left: 10rem */
-        /* } */
+            margin-left: 10rem
+        }
 
-        /* .box-head2 {
+        .box-head2 {
             float: right;
             width: 70%;
             text-align: left;
-            /* margin-left: 3rem; */
-        /* margin-top: 2rem; */
-        /* } */
-
-        .project-name {
-            text-align: center;
+            margin-left: 10rem;
+            margin-top: 2rem;
         }
 
-        .logo_box {
-            float: left;
-            width: 30%;
-        }
-
-        .title_box {
-            float: right;
-            width: 70%;
-        }
-
-        /* .page-header {
+        .page-header {
             display: flex;
-        } */
+        }
     </style>
     {% include head-custom.html %}
 </head>
@@ -55,31 +41,21 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-        <!-- <div class="box-head1">
+        <div class="box-head1">
             <img src="{{site.logo}}" width="120px" height="120px">
-        </div> -->
-        <!-- <div class="box-head2"> -->
-        <h1 class="head1">
-            <div class="project-name">
-                <div class="logo_box">
-                    <img src="{{site.logo}}" width="120px" height="120px">
-                </div>
-                <div class="title_box">
-                    <div class="title_w">{{ site.title | default: site.github.repository_name }}</div>
-                </div>
-            </div>
-        </h1>
-        <!-- <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> -->
-        <h2 class="project-tagline">{{ page.description | default: site.description | default:
-            site.github.project_tagline }}</h2>
-        <a href="{{ site.github.paper_url }}" class="btn">View on ArXiv</a>
-        {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-        {% endif %}
-        {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        {% endif %}
-        <!-- </div> -->
+        </div>
+        <div class="box-head2">
+            <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+            <h2 class="project-tagline">{{ page.description | default: site.description | default:
+                site.github.project_tagline }}</h2>
+            <a href="{{ site.github.paper_url }}" class="btn">Download Paper</a>
+            {% if site.github.is_project_page %}
+            <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+            {% endif %}
+            {% if site.show_downloads %}
+            <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+            {% endif %}
+        </div>
 
     </header>
 
