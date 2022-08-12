@@ -16,18 +16,18 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
         .box-head1 {
-            float: left;
-            width: 30%;
-            text-align: right;
-            margin-left: 10rem
+            /* float: left; */
+            /* width: 30%; */
+            text-align: center;
+            /* margin-left: 10rem */
         }
 
         .box-head2 {
             float: right;
             width: 70%;
             text-align: left;
-            margin-left: 10rem;
-            margin-top: 2rem;
+            /* margin-left: 3rem; */
+            /* margin-top: 2rem; */
         }
 
         .page-header {
@@ -41,14 +41,20 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-        <div class="box-head1">
-            <img src="{{site.logo}}" width="300px" height="300px">
-        </div>
+        <!-- <div class="box-head1">
+            <img src="{{site.logo}}" width="120px" height="120px">
+        </div> -->
         <div class="box-head2">
-            <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+            <div class="logo_title">
+                <div class="box-head1">
+                    <img src="{{site.logo}}" width="120px" height="120px">
+                </div>
+                <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+            </div>
+            <!-- <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> -->
             <h2 class="project-tagline">{{ page.description | default: site.description | default:
                 site.github.project_tagline }}</h2>
-            <a href="{{ site.github.paper_url }}" class="btn">Download Paper</a>
+            <a href="{{ site.github.paper_url }}" class="btn">View on ArXiv</a>
             {% if site.github.is_project_page %}
             <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
             {% endif %}
