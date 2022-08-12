@@ -70,7 +70,9 @@ a {
     border-style: solid;
     border-width: 1px;
     border-radius: 0.3rem;
+    font-size: 20px;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
 
     &:hover {
         color: rgba(255, 255, 255, 0.8);
