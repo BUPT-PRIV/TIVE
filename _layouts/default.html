@@ -30,7 +30,7 @@
         /* margin-top: 2rem; */
         /* } */
 
-        /* .logo_title {
+        .logo_title {
             text-align: center;
         }
 
@@ -42,11 +42,11 @@
         .title_box {
             float: right;
             width: 70%;
-        } */
-
-        .page-header {
-            display: flex;
         }
+
+        /* .page-header {
+            display: flex;
+        } */
     </style>
     {% include head-custom.html %}
 </head>
@@ -59,14 +59,17 @@
             <img src="{{site.logo}}" width="120px" height="120px">
         </div> -->
         <!-- <div class="box-head2"> -->
-
-        <!-- <h1 class="head1">
-            <img src="{{site.logo}}" width="120px" height="120px">
-
-            <div class="project-name">{{ site.title | default: site.github.repository_name }}</div>
-        </h1> -->
-
-        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+        <h1 class="head1">
+            <div class="logo_title">
+                <div class="logo_box">
+                    <img src="{{site.logo}}" width="120px" height="120px">
+                </div>
+                <div class="title_box">
+                    <div class="project-name">{{ site.title | default: site.github.repository_name }}</div>
+                </div>
+            </div>
+        </h1>
+        <!-- <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> -->
         <h2 class="project-tagline">{{ page.description | default: site.description | default:
             site.github.project_tagline }}</h2>
         <a href="{{ site.github.paper_url }}" class="btn">View on ArXiv</a>
