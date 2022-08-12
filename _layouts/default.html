@@ -40,7 +40,8 @@
         }
 
         .title_box {
-            float: left;
+            float: right;
+            width: 70%;
         }
 
         .page-header {
@@ -58,14 +59,14 @@
             <img src="{{site.logo}}" width="120px" height="120px">
         </div> -->
         <!-- <div class="box-head2"> -->
-        <div class="logo_title">
+        <h1 class="logo_title">
             <div class="logo_box">
                 <img src="{{site.logo}}" width="120px" height="120px">
             </div>
             <div class="title_box">
-                <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+                <div class="project-name">{{ site.title | default: site.github.repository_name }}</div>
             </div>
-        </div>
+        </h1>
         <!-- <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> -->
         <h2 class="project-tagline">{{ page.description | default: site.description | default:
             site.github.project_tagline }}</h2>
