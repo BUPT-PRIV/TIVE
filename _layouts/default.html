@@ -59,12 +59,14 @@
             <img src="{{site.logo}}" width="120px" height="120px">
         </div> -->
         <!-- <div class="box-head2"> -->
-        <h1 class="head1">
+
+        <!-- <h1 class="head1">
             <img src="{{site.logo}}" width="120px" height="120px">
 
             <div class="project-name">{{ site.title | default: site.github.repository_name }}</div>
-        </h1>
-        <!-- <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> -->
+        </h1> -->
+
+        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline">{{ page.description | default: site.description | default:
             site.github.project_tagline }}</h2>
         <a href="{{ site.github.paper_url }}" class="btn">View on ArXiv</a>
