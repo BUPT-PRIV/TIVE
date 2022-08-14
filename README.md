@@ -79,8 +79,8 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
     <td class="model_summary_table-9wq8">43.43</td>
     <td class="model_summary_table-9wq8">7.50</td>
     <td class="model_summary_table-9wq8">0.00</td>
-    <td class="model_summary_table-9wq8">6.73</td>
-    <td class="model_summary_table-9wq8">6.30</td>
+    <td class="model_summary_table-9wq8">6.98</td>
+    <td class="model_summary_table-9wq8">6.36</td>
     <td class="model_summary_table-9wq8">0.24</td>
     <td class="model_summary_table-9wq8">0.94</td>
     <td class="model_summary_table-9wq8">6.08</td>
@@ -88,32 +88,32 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
   <tr>
     <td class="model_summary_table-b406">VISOLO</td>
     <td class="model_summary_table-b406">T=3</td>
-    <td class="model_summary_table-b406">38.00</td>
-    <td class="model_summary_table-b406">8.82</td>
-    <td class="model_summary_table-b406">39.43</td>
-    <td class="model_summary_table-b406">37.96</td>
-    <td class="model_summary_table-b406">11.52</td>
+    <td class="model_summary_table-b406">38.49</td>
+    <td class="model_summary_table-b406">8.58</td>
+    <td class="model_summary_table-b406">39.31</td>
+    <td class="model_summary_table-b406">40.94</td>
+    <td class="model_summary_table-b406">12.35</td>
     <td class="model_summary_table-b406">0.00</td>
-    <td class="model_summary_table-b406">3.53</td>
-    <td class="model_summary_table-b406">9.97</td>
-    <td class="model_summary_table-b406">0.15</td>
-    <td class="model_summary_table-b406">1.17</td>
-    <td class="model_summary_table-b406">6.00</td>
+    <td class="model_summary_table-b406">2.74</td>
+    <td class="model_summary_table-b406">8.97</td>
+    <td class="model_summary_table-b406">0.09</td>
+    <td class="model_summary_table-b406">0.86</td>
+    <td class="model_summary_table-b406">5.84</td>
   </tr>
   <tr>
     <td class="model_summary_table-9wq8">IFC</td>
     <td class="model_summary_table-9wq8">T=5</td>
-    <td class="model_summary_table-9wq8">40.35</td>
-    <td class="model_summary_table-9wq8">21.05</td>
-    <td class="model_summary_table-9wq8">39.04</td>
-    <td class="model_summary_table-9wq8">41.09</td>
-    <td class="model_summary_table-9wq8">6.81</td>
+    <td class="model_summary_table-9wq8">40.27</td>
+    <td class="model_summary_table-9wq8">20.44</td>
+    <td class="model_summary_table-9wq8">38.98</td>
+    <td class="model_summary_table-9wq8">40.98</td>
+    <td class="model_summary_table-9wq8">7.03</td>
     <td class="model_summary_table-9wq8">0.02</td>
-    <td class="model_summary_table-9wq8">8.55</td>
-    <td class="model_summary_table-9wq8">9.46</td>
-    <td class="model_summary_table-9wq8">0.41</td>
-    <td class="model_summary_table-9wq8">1.13</td>
-    <td class="model_summary_table-9wq8">4.68</td>
+    <td class="model_summary_table-9wq8">6.93</td>
+    <td class="model_summary_table-9wq8">10.99</td>
+    <td class="model_summary_table-9wq8">0.38</td>
+    <td class="model_summary_table-9wq8">1.20</td>
+    <td class="model_summary_table-9wq8">4.72</td>
   </tr>
   <tr>
     <td class="model_summary_table-b406">SeqFormer</td>
@@ -124,8 +124,8 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
     <td class="model_summary_table-b406">39.20</td>
     <td class="model_summary_table-b406">6.95</td>
     <td class="model_summary_table-b406">0.25</td>
-    <td class="model_summary_table-b406">6.99</td>
-    <td class="model_summary_table-b406">4.47</td>
+    <td class="model_summary_table-b406">7.69</td>
+    <td class="model_summary_table-b406">4.00</td>
     <td class="model_summary_table-b406">0.00</td>
     <td class="model_summary_table-b406">0.97</td>
     <td class="model_summary_table-b406">6.20</td>
@@ -133,17 +133,17 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
   <tr>
     <td class="model_summary_table-9wq8">Mask2Former</td>
     <td class="model_summary_table-c3ow">T=2</td>
-    <td class="model_summary_table-9wq8">48.20</td>
-    <td class="model_summary_table-9wq8">26.37</td>
-    <td class="model_summary_table-9wq8">44.10</td>
-    <td class="model_summary_table-9wq8">45.19</td>
-    <td class="model_summary_table-9wq8">4.15</td>
-    <td class="model_summary_table-9wq8">0.15</td>
-    <td class="model_summary_table-9wq8">4.89</td>
-    <td class="model_summary_table-9wq8">7.21</td>
-    <td class="model_summary_table-9wq8">0.19</td>
-    <td class="model_summary_table-9wq8">2.03</td>
-    <td class="model_summary_table-9wq8">3.19</td>
+    <td class="model_summary_table-9wq8">48.07</td>
+    <td class="model_summary_table-9wq8">25.05</td>
+    <td class="model_summary_table-9wq8">43.85</td>
+    <td class="model_summary_table-9wq8">44.37</td>
+    <td class="model_summary_table-9wq8">5.23</td>
+    <td class="model_summary_table-9wq8">0.42</td>
+    <td class="model_summary_table-9wq8">5.54</td>
+    <td class="model_summary_table-9wq8">6.52</td>
+    <td class="model_summary_table-9wq8">0.06</td>
+    <td class="model_summary_table-9wq8">2.51</td>
+    <td class="model_summary_table-9wq8">2.94</td>
   </tr>
 </tbody>
 </table>
