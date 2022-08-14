@@ -38,6 +38,11 @@
         .box-head0 {
             width: 68rem;
         }
+
+        .site_logo {
+            width: 9rem;
+            height: 9rem;
+        }
     </style>
     {% include head-custom.html %}
 </head>
@@ -48,7 +53,8 @@
     <header class="page-header" role="banner">
         <div class="box-head0">
             <div class="box-head1">
-                <img src="{{site.logo}}" width="9rem" height="9rem">
+                <!-- <img src="{{site.logo}}" width="144" height="144"> -->
+                <img class="site_logo" src="{{site.logo}}">
             </div>
             <div class="box-head2">
                 <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
