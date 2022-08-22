@@ -155,10 +155,7 @@ Experiments conducted by TIVE show that recognizing short video instances is esp
 If you use TIVE in your project, please cite
 
 ```
-@inproceedings{jia2022tive,
-  author    = {Wenhe Jia and Lu Yang and Zilong Jia and Wenyi Zhao and Qing Song},
-  title     = {TIVE: A General Toolbox for Identifying Video Instance Segemntation Errors},
-  booktitle = {arXiv},
-  year      = {2022},
+@inproceedings{
+                To Be Updated
 }
 ```
